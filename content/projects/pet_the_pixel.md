@@ -1,5 +1,6 @@
 ---
-title: How I tried to make the internet "pet" a "pixel"
+title: I Made a Multiplayer Game Where Everyone Pets the Same Pixel
+description: A minimalist multiplayer browser game where users click to pet a pixel, built with Go, React, Dragonfly, and Protobuf.
 tags:
   - project
   - typescript

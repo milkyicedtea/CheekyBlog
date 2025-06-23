@@ -15,7 +15,7 @@
     "build-index": "node run-build-index.mjs",
     "build": "npm run build-index && npx quartz build",
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "docs": "npx quartz build --serve -d docs",
+    "docs": "npm run build-index && npx quartz build --serve -d content",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
