@@ -51,8 +51,7 @@ r.Post("/api/pet", PetHandler)
 **Serialization:**
 - Instead of JSON, all responses use [**Protocol Buffers** (protobuf)](https://protobuf.dev/).
 	- Why? Smaller payloads, lower bandwidth costs, helps keep the project within **free-tier hosting limits** (although it's a *veery* generous 10TB/monthly).
-**Rate Limiting:**
-- IP-based throttling to prevent bots/spam/auto-clickers and preserve the spirit of the game.
+- **Rate Limiting:** IP-based throttling to prevent bots/spam/auto-clickers and preserve the spirit of the game.
 
 ### Frontend
 **Built with:**
@@ -78,8 +77,10 @@ There’s no onboarding, no leaderboard, no gamification. The goal isn’t to co
 - MVPs can still have heart.
 
 ## What’s Next for the Pixel?
-To begin with, the pixel isn't yet complete! I've probably overshot it, but I've set the last milestone at 100 million "pets", so there's still plenty of time before it's over for the project
+To begin with, the pixel isn't yet complete! I've probably overshot it, but I've set the last milestone at 100 million "pets", so there's still plenty of time before it's over for the project.
+
 Secondly, I've decided that if there's enough interest around it, I’ll consider open-sourcing the project. Maybe others will remix it — a **Pet the Planet**, or **Pet the Pigeon**.. who knows? Endless possibilities!
 
 Until then, give the pixel a pet. It needs you :)
+
 👉 [Try it here](https://ptp.051205.xyz/)
