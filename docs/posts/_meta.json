@@ -1,0 +1,12 @@
+[
+  {
+    "type": "file",
+    "name": "index.md",
+    "label": "Posts Overview"
+  },
+  {
+    "type": "file",
+    "name": "pet_the_pixel.md",
+    "label": "Pet The Pixel"
+  }
+]

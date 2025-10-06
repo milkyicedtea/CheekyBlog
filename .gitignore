@@ -1,11 +1,14 @@
+# Local
 .DS_Store
-.gitignore
+*.local
+*.log*
+
+# Dist
 node_modules
-public
-prof
-tsconfig.tsbuildinfo
-.obsidian
-.quartz-cache
-private/
-.replit
-replit.nix
+dist/
+doc_build/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
